@@ -22,7 +22,7 @@
         top: auto !important;
         font-size: 2em !important;
         padding: 10px 15px !important;
-        margin-top: 0 !important;
+        margin-top: -160px !important;
         margin-bottom: 20px !important;
         margin-left: auto !important;
         margin-right: auto !important;
@@ -57,7 +57,7 @@
     <section class="sezione">
         <div class="container">
            <section class="order-section">
-               <h1 style="margin-top: 0; padding-top: 0; position: relative; top: -30px; color: #fff; text-align: center; font-size: 2.5em; animation: titleReveal 1s ease forwards; opacity: 1;">
+               <h1 style="margin-top: 0; padding-top: 0; position: relative; top: -80px; color: #fff; text-align: center; font-size: 2.5em; animation: titleReveal 1s ease forwards; opacity: 1;">
   Il nostro Menù
 </h1>
 
