@@ -18,3 +18,61 @@
     </div>
 </section>
 
+<style>
+  /* Stili base per desktop */
+  .order-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .order-text, .order-image {
+    flex: 1;
+  }
+
+  .order-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Media query per schermi piccoli */
+  @media (max-width: 768px) {
+    .order-content {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .order-text, .order-image {
+      width: 100%;
+      flex: unset;
+    }
+
+    .order-section {
+      padding: 20px 15px;
+    }
+
+    .order-text h1 {
+      font-size: 1.8rem;
+    }
+
+    .delivery-text p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .order-image img {
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .order-button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+</style>
+
+

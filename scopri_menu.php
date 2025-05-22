@@ -22,7 +22,7 @@
         top: auto !important;
         font-size: 2em !important;
         padding: 10px 15px !important;
-        margin: 20px auto !important;
+        margin-top: 0 !important;
         text-align: center !important;
         white-space: normal !important;
         overflow-wrap: break-word !important;
