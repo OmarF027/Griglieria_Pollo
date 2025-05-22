@@ -23,6 +23,9 @@
         font-size: 2em !important;
         padding: 10px 15px !important;
         margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         text-align: center !important;
         white-space: normal !important;
         overflow-wrap: break-word !important;
